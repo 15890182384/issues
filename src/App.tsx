@@ -15,7 +15,7 @@ export default defineComponent({
         class: 'conclusion-confirm',
         content: (
           <div class="mdt-conclusion-content">
-            <Textarea v-model={[value.value, 'value']} autoSize={{ minRows: 6 }} placeholder="请在此处编辑会诊小结" />
+            <Textarea v-model={[value.value, 'value']} autoSize={{ minRows: 6 }} placeholder="placeholder" />
           </div>
         ),
         onOk() {}
